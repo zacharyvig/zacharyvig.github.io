@@ -5,19 +5,16 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: #35424a;
     color: #ffffff;
     padding: 20px;
     text-align: center;
 }
-
 nav {
     background-color: #222831;
     overflow: hidden;
 }
-
 nav a {
     float: left;
     display: block;
@@ -26,17 +23,14 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
 }
-
 nav a:hover {
     background-color: #4ecca3;
     color: #222831;
 }
-
 section {
     padding: 50px;
     text-align: center;
 }
-
 footer {
     background-color: #222831;
     color: #ffffff;
