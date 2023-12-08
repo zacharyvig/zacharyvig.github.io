@@ -1775,15 +1775,15 @@ keep in mind when finding housing, whether her goal is quality,
 affordability, or both. The modeling might also shed light on the
 problem of India’s housing gap and the discrepancy in affordable housing
 access between socioeconomic groups.</p>
-<p>Second, we wish to determine <strong><em>if there exist any
-interesting (including unfair) trends in the characteristics of a
-property depending on the preferred tenant, such as housing targeted at
-families</em></strong>. To do so, our goal is to build classification
-models predicting preferred tenant status based on publicly available
-information. Such a model will shed light on the accessibility of
-quality and affordable housing to families and may illuminate ways in
-which property listings are biased, whether it be in quality, rent
-price, location, or other characteristics.</p>
+<p>Second, we wish to determine <strong><em>what public information
+about urban properties best predicts the preferred tenant</em></strong>.
+To do so, we will be able to analyze what variables drive renters and
+landlords to hold these preferences and if there is any (perhaps
+uunfair) difference in family-targeted housing versus other types. Such
+a model will shed light on the accessibility of quality and affordable
+housing to families and may illuminate ways in which property listings
+are biased, whether it be in quality, rent price, location, or other
+characteristics.</p>
 <hr />
 </div>
 <div id="data" class="section level1">
@@ -2113,7 +2113,7 @@ Out-of-Sample MAE
 <tbody>
 <tr>
 <td style="text-align:left;">
-Null Model 360
+Null Model
 </td>
 <td style="text-align:right;color: #eb6864 !important;">
 360
@@ -2263,9 +2263,8 @@ Point of Contact: Contact Owner
 <div id="question-2" class="section level2">
 <h2>Question 2</h2>
 <blockquote>
-<p><em>Do there exist any interesting (including unfair) trends in the
-characteristics of a property depending on the preferred tenant, such as
-housing targeted at families?</em></p>
+<p><em>What public information about urban properties best predicts the
+preferred tenant?</em></p>
 </blockquote>
 <p>To answer our second question, we use different classification models
 predicting either a binary form or the original multi-class form the
